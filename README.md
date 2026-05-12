@@ -1,4 +1,4 @@
-# 🔍 SentiScope — NLP Sentiment Analyzer
+#  SentiScope — NLP Sentiment Analyzer
 
 A beginner-friendly **end-to-end NLP project** that classifies text as **Positive**, **Negative**, or **Neutral** using a TF-IDF + Logistic Regression pipeline, served via a sleek Flask web app.
 
@@ -9,17 +9,17 @@ A beginner-friendly **end-to-end NLP project** that classifies text as **Positiv
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🧠 **ML Pipeline** — TF-IDF vectorizer + Logistic Regression with bigrams
-- 🌐 **Web App** — Clean Flask UI with animated confidence score bars
-- 📓 **Jupyter Notebook** — Full EDA, training, and evaluation walkthrough
-- ⚡ **REST API** — `/predict` and `/batch` endpoints (JSON)
-- 🔌 **Lexicon Fallback** — Works even without scikit-learn installed
+-  **ML Pipeline** — TF-IDF vectorizer + Logistic Regression with bigrams
+-  **Web App** — Clean Flask UI with animated confidence score bars
+-  **Jupyter Notebook** — Full EDA, training, and evaluation walkthrough
+-  **REST API** — `/predict` and `/batch` endpoints (JSON)
+-  **Lexicon Fallback** — Works even without scikit-learn installed
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 sentiment-analyzer/
@@ -40,7 +40,7 @@ sentiment-analyzer/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone the repo
 ```bash
@@ -92,7 +92,7 @@ curl -X POST http://localhost:5000/batch \
 
 ---
 
-## 🧪 How It Works
+##  How It Works
 
 | Step | Description |
 |------|-------------|
@@ -103,39 +103,11 @@ curl -X POST http://localhost:5000/batch \
 
 ---
 
-## 📈 Improving the Model
 
-Want better accuracy? Swap the sample data with a real dataset:
-
-- [IMDb Movie Reviews](https://ai.stanford.edu/~amaas/data/sentiment/)
-- [Amazon Product Reviews](https://jmcauley.ucsd.edu/data/amazon/)
-- [Twitter Sentiment140](http://help.sentiment140.com/for-students)
-
-Load it in `sentiment_model.py` by replacing `SAMPLE_DATA` with a CSV read.
-
----
-
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Backend:** Python, Flask
 - **ML:** scikit-learn (TF-IDF, Logistic Regression)
 - **Frontend:** Vanilla HTML/CSS/JS
 - **Notebook:** Jupyter
 
----
-
-## 🤝 Contributing
-
-Pull requests are welcome! Feel free to open an issue for bugs or feature suggestions.
-
-1. Fork the repo
-2. Create your branch (`git checkout -b feature/your-feature`)
-3. Commit changes (`git commit -m 'Add feature'`)
-4. Push to branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-MIT © 2024 — feel free to use, modify, and share.
